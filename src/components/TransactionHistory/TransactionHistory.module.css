@@ -1,0 +1,28 @@
+.table {
+  margin: 0 auto;
+  width: 720px;
+  border: 2px solid #2a2a2a;
+  border-collapse: collapse;
+}
+
+.title {
+  padding: 8px;
+  text-align: center;
+  background-color: black;
+  color: #fff;
+}
+
+.string:nth-child(even) {
+  background-color: #797474;
+}
+
+.string:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.item {
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  padding: 8px;
+}
